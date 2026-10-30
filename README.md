@@ -31,7 +31,6 @@ El Sistema de Evaluación del Desempeño de la Fiscalía General del Estado de Y
 
 | Rama | Descripción | 
 |------|-------------|
-| **[Tercera-Entrega](https://github.com/jhoanapechram/-FIS-Equipo-2/tree/TERCERA-ENTREGA-V2)** | Versión final del proyecto | 
-| **[Segunda-Entrega](https://github.com/jhoanapechram/-FIS-Equipo-2/tree/Segunda-Entrega)** | Desarrollo y implementación | 
-| **[Primera-Entrega](https://github.com/jhoanapechram/-FIS-Equipo-2/tree/Primera-Entrega)** | Análisis y planificación | 
+| **[Segunda-Entrega](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega)** | Desarrollo y implementación | 
+| **[Primera-Entrega](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Primera-Entrega)** | Análisis y planificación | 
 
