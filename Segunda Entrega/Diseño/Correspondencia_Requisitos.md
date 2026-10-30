@@ -1,0 +1,13 @@
+# Correspondencia del DC con los RF y RNF
+
+| Elemento del Diagrama de Clases | Componente (Atributo / Método) | Requisito Funcional (RF) | Requisito No Funcional (RNF) | Descripción de la Correspondencia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Administrador** | `registrarUsuario()`, `modificarUsuario()`, `eliminarUsuario()` | **RF 01** | — | Permite al administrador gestionar el alta, baja y modificación de los servidores públicos en el sistema. |
+| **Administrador** | `establecerPeriodoEvaluacion()` | **RF 05** | — | Permite configurar las fechas de inicio y cierre del periodo de evaluación (máx. 30 días). |
+| **Usuario** | `iniciarSesion()`, `cerrarSesion()`, `contrasena`, `tipoUsuario` | **RF 02** | **RNF 03** | Soporta la autenticación por credenciales y el control de acceso estricto basado en roles (Directora vs. demás usuarios). |
+| **Usuario** | `codigoEmpleado`, `rfc`, `fechaIngreso`, `areaAdscripcion` | **RF 01**, **RF 04** | — | Almacena los datos personales obligatorios y permite validar la antigüedad mínima de 6 meses para participar. |
+| **Evaluacion** | `guardarBorrador()`, `enviarEvaluacion()` | **RF 03**, **RF 04** | **RNF 05** | Soporta la lógica de negocio para registrar evaluaciones y autoevaluaciones, permitiendo borradores, bloqueando modificaciones tras el envío y validando la integridad. |
+| **PeriodoEvaluacion** | `fechaInicio`, `fechaFin`, `activo`, `verificarVigencia()` | **RF 05** | **RNF 08** | Controla el lapso temporal de disponibilidad de las evaluaciones y asegura la disponibilidad mínima del 99% durante el periodo activo. |
+| **Indicador** y **Respuesta** | `descripcion`, `criterio`, `calificacion`, `valorRespuesta`, `observaciones` | **RF 06** | **RNF 06**, **RNF 07** | Permiten la persistencia segura de las respuestas asociadas, previniendo la pérdida o duplicación de datos y manteniendo el historial auditable. |
+| **Reporte** | `generarReporte()`, `exportar()`, `imprimir()`, `formato` | **RF 07**, **RF 08** | **RNF 01**, **RNF 14** | Permite a la Directora consultar resultados consolidados, respetando los tiempos de respuesta para reportes y asegurando la compatibilidad de software para archivos **PDF** y **Excel**. |
+| *(Arquitectura General)* | Estructura de Clases y Relaciones | — | **RNF 11** | Refleja una arquitectura basada en componentes independientes y estándares web abiertos para su despliegue en los servidores de la Fiscalía. |
