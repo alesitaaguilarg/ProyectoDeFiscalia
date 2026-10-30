@@ -6,27 +6,16 @@
 
 ### Descripción
 
-Esta carpeta contiene todos los entregables y avances de nuestro proyecto, un Sistema de Evaluación que busca medir y dar seguimiento al desempeño laboral de los servidores públicos de la institución.
+Aquí se encuentra los documentos producidos para la [Segunda Entrega](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega/Segunda%20Entrega)
 
-### Composición de la carpeta
+## Estructura de la rama
 
-#### Competencias
-- [Competencias Específicas]()
-- [Competencias Genéricas] ()
+## Estructura del Repositorio - Segunda Entrega
 
-#### Diseño
-- [Correspondencia del DC con los requisitos](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Dise%C3%B1o/Correspondencia_Requisitos.md)
-- [Diagrama de Clases](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Dise%C3%B1o/Diagrama-de-clases.md)
-
-#### Presentación
-
-
-#### Proceso
-
-
-#### Requerimientos
-- [Casos de Uso](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/casos-de-uso.md)
-- [Historias de Usuario](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/historias-de-usuario.md)
-- [Requisitos Funcionales](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/05-requisitos-funcionales.md)
-- [Requisitos No Funcionales](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/06-requisitos-no-funcionales.md)
-- [Priorización de Requisitos](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/07-priorizaci%C3%B3n-requisitos.md)
+| Carpeta | Descripción |
+| :--- | :--- |
+| [**`Competencias`**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega/Segunda%20Entrega/Competencias) | Almacena la documentación, evidencias o registros orientados a evaluar las habilidades, competencias o criterios académicos y profesionales del equipo en el desarrollo del proyecto. |
+| [**`Diseño`**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega/Segunda%20Entrega/Dise%C3%B1o) | Contiene los artefactos de modelado de software del sistema, tales como el diagrama de clases (DC), la matriz de trazabilidad y correspondencia con los requisitos (RF/RNF), y la estructura arquitectónica (patrón MVC). |
+| [**`Presentación`**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega/Segunda%20Entrega/Presentaci%C3%B3n) | Aquí se encuentra el video comparando los avances entre la primera y segunda entrega, así como las diapositivas utilizadas en el video. |
+| [**`Proceso`**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega/Segunda%20Entrega/Proceso) | Documenta el seguimiento metodológico, bitácoras de avance y la gestión de entregas del equipo. |
+| [**`Requerimientos`**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/tree/Segunda-Entrega/Segunda%20Entrega/Requerimientos) | Contiene la documentación formal y detallada de los requerimientos del sistema, incluyendo los Requisitos Funcionales (RF), los Requisitos No Funcionales (RNF) y su prioridad. |
