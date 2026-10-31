@@ -1,14 +1,20 @@
 # Requisitos del Proyecto
 
-Aquí se encuentran todos los entregables necesarios para el desarrollo y diseño del Sistema de Evaluación
+En esta carpeta se almacenan los artefactos de especificación, análisis y validación de requerimientos del **Sistema de Evaluación del Desempeño (SEDFGEY)**, actualizados para la segunda entrega.
 
-## Estructura de la carpeta
+## Mejoras Realizadas en esta Entrega
+* **Evolución y Claridad:** Se reorganizaron los Requisitos Funcionales (RF) y No Funcionales (RNF) para reflejar con mayor precisión los procesos de evaluación de la Fiscalía y las necesidades de los distintos roles de usuario.
+* **Priorización Alineada al Negocio:** Se clasificaron los requerimientos según su criticidad y valor para los objetivos principales del producto.
+* **Refinamiento de Artefactos:** Se detallaron las Historias de Usuario incorporando **criterios de aceptación** verificables, y se ampliaron los Casos de Uso contemplando **flujos alternativos y excepciones**, acompañados de su respectivo diagrama resumen.
 
-| Archivo | Descripción breve |
-|---------|-------------------|
-| [**Casos_de_Uso.md**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/casos-de-uso.md) | Documento que describe los casos de uso principales del sistema, sus actores, flujos y condiciones. |
-| [**Historias_de_Usuarios.md**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/historias-de-usuario.md) | Colección de historias de usuario que describen necesidades, objetivos y criterios de aceptación. |
-| [**05-requisitos-funcionales.md**](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/05-requisitos-funcionales.md) | Lista de los requisitos. |
-| [**06-requisitos-no-funcionales.md** ](https://github.com/alesitaaguilarg/ProyectoDeFiscalia/blob/Segunda-Entrega/Segunda%20Entrega/Requerimientos/06-requisitos-no-funcionales.md) | Documento que clasifica y prioriza los requisitos según su importancia y valor para el usuario. |
+## Estructura de Artefactos
 
----
+| Archivo | Descripción Detallada |
+| :--- | :--- |
+| [**01-introduccion.md**](./01-introduccion.md) | Propósito del documento, alcance del producto, definiciones, acrónimos y visión general del sistema. |
+| [**02-descripcion-general.md**](./02-descripcion-general.md) | Perspectiva del producto, funciones principales, perfiles de usuario (evaluadores, evaluados, administradores), restricciones y suposiciones. |
+| [**05-requisitos-funcionales.md**](./05-requisitos-funcionales.md) | Especificación estructurada de los Requisitos Funcionales (RF) que el sistema debe ejecutar. |
+| [**06-requisitos-no-funcionales.md**](./06-requisitos-no-funcionales.md) | Especificación de atributos de calidad: seguridad, rendimiento, usabilidad y mantenibilidad (RNF). |
+| [**07-priorización-requisitos.md**](./07-priorización-requisitos.md) | Matriz de priorización de requisitos basada en su urgencia, dependencia e impacto en el sistema. |
+| [**casos-de-uso.md**](./casos-de-uso.md) | Especificación detallada de Casos de Uso (actores, precondiciones, flujo principal, flujos de excepción) y Diagrama de Casos de Uso. |
+| [**historias-de-usuario.md**](./historias-de-usuario.md) | Historias de usuario redactadas bajo el estándar ágil junto con sus escenarios y criterios de aceptación. |
