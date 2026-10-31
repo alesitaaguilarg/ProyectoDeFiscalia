@@ -1,6 +1,6 @@
 # Evidencia de Sprints — SEDFGEY
 
-## # Información general 
+## - Información general 
 
 **Proyecto:** Sistema de Evaluación del Desempeño de la Fiscalía General del Estado de Yucatán (SEDFGEY)  
 **Fecha Límite:** 31 de Octubre 2026  
@@ -9,7 +9,7 @@
 
 ---
 
-## Equipo de Trabajo
+## - Equipo de Trabajo
 
 | Integrante | Rol | Responsabilidad principal |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@
 
 ---
 
-## # Cronograma de Sprints
+## - Cronograma de Sprints
 
 ### Sprint 1 — 8 al 14 de octubre
 
