@@ -7,10 +7,10 @@ Los **Requisitos No Funcionales (RNF)** definen los atributos de calidad y restr
 | Categoría | Criterio / Aspecto | Descripción resumida |
 | :--- | :--- | :--- |
 | **Rendimiento** | Tiempos de respuesta | $\le$ 3 s para autenticación, navegación y guardado; $\le$ 5 s para consultas; $\le$ 10 s para reportes PDF/Excel. |
-| **Rendimiento** | Concurrencia | Soporte de acceso simultáneo para los servidores públicos evaluados dentro de la red de la FGE. |
+| **Rendimiento** | Concurrencia | Soporte de acceso simultáneo para los servidores públicos evaluados. |
 | **Seguridad** | Control de acceso | Autenticación con credenciales y roles (Directora: gestión y resultados; Usuarios: solo sus evaluaciones). |
-| **Seguridad** | Restricción de red | Acceso exclusivo desde equipos conectados a la red institucional de la FGE Yucatán. |
 | **Seguridad** | Integridad y Normativa | Validación de datos, bloqueo de cambios tras el envío, respaldos y cumplimiento de avisos de privacidad y reglamentos. |
+| **Usabilidad** | Interfaz intuitiva | Diseño de pantallas accesible, claro y alineado a la identidad gráfica institucional para facilitar la navegación del usuario. |
 | **Fiabilidad** | Tolerancia a fallos | Conservación de datos y prevención de duplicados o pérdidas ante fallas de red o del sistema. |
 | **Fiabilidad** | Historial | Preservación y disponibilidad para consulta del registro histórico de evaluaciones. |
 | **Disponibilidad** | Uptime operativo | Disponibilidad mínima del **99%** en periodo de evaluación (mantenimientos programados fuera de horario). |
