@@ -12,4 +12,4 @@ Esta carpeta reúne el material audiovisual y de soporte empleado para exponer l
 | Recurso | Descripción |
 | :--- | :--- |
 | **Guion y Diapositivas** | Presentación visual con la comparativa de avances en requisitos, diseño (DC/MVC) y proceso. |
-| **Video de Presentación** | Enlace o archivo de video con la exposición del equipo. |
+| **Video de Presentación** | https://alumnosuady-my.sharepoint.com/:f:/g/personal/a25216429_alumnos_uady_mx/IgCLJSI02cxZSKldUNV4y7jqAWKjX2jW2-BtZ3AF7Ht4B4Y?e=VIPefa |
