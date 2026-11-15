@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>FiscalíaDeclara - Iniciar Sesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-light bg-white border-bottom p-3 mb-5">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 fw-bold text-secondary">FiscalíaDeclara</span>
+            <span class="text-secondary">Manuales</span>
+        </div>
+    </nav>
+
+    <div class="container bg-white shadow-sm rounded-4 overflow-hidden mt-5">
+        <div class="row">
+            <!-- Lado izquierdo: Imagen -->
+            <div class="col-md-6 p-0 position-relative" style="background: url('/img/fondo.png') center/cover no-repeat; min-height: 450px;">
+                <!-- Franja oscura inferior con texto -->
+                <div class="position-absolute bottom-0 w-100 p-4 text-center text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+                    <h4 class="fw-bold">Bienvenido</h4>
+                    <p class="mb-0 small">Sistema de Declaración Patrimonial y de Intereses.</p>
+                </div>
+            </div>
+
+            <!-- Lado derecho: Formulario -->
+            <div class="col-md-6 p-5 d-flex flex-column justify-content-center align-items-center">
+                <h4 class="mb-4 text-secondary fw-bold">Iniciar sesión</h4>
+                <form class="w-75">
+                    <div class="mb-3">
+                        <input type="text" class="form-control bg-light" placeholder="RFC del empleado" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control bg-light" placeholder="Contraseña" required>
+                    </div>
+                    <div class="text-center mb-4">
+                        <a href="#" class="text-decoration-none small text-info">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <button type="submit" class="btn btn-info w-100 text-white fw-bold rounded-pill py-2">
+                        Iniciar sesión
+                    </button>
+                    <div class="text-center mt-3 small text-secondary">
+                        Si aún no tienes cuenta <a href="#" class="text-info text-decoration-none">Regístrate aquí</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
