@@ -9,18 +9,24 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
 
-    /** Para el inicio de sesión. */
+    /** Inicio de sesión por nombre de usuario. */
     Optional<Usuario> findByNombreUsuario(String nombreUsuario);
 
-    /** Para el inicio de sesión con RFC (el formulario de login pide el RFC). */
+    /** Inicio de sesión por RFC (el formulario de login pide el RFC). */
     Optional<Usuario> findByRfc(String rfc);
 
-    /** Para validar duplicados antes de registrar un usuario. */
-    boolean existsByNombreUsuario(String nombreUsuario);
+    Optional<Usuario> findByCodigoEmpleado(String codigoEmpleado);
 
-    boolean existsByCodigoEmpleado(String codigoEmpleado);
+    /** Validaciones de duplicados antes de registrar un usuario. */
+    boolean existsByNombreUsuario(String nombreUsuario);
 
     boolean existsByRfc(String rfc);
 
+    boolean existsByCodigoEmpleado(String codigoEmpleado);
+
     List<Usuario> findByTipoUsuario(String tipoUsuario);
+
+    List<Usuario> findByAreaAdscripcion(String areaAdscripcion);
+
+    List<Usuario> findByNombreContainingIgnoreCase(String nombre);
 }

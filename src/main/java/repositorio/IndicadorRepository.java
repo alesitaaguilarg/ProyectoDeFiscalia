@@ -8,5 +8,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IndicadorRepository extends JpaRepository<Indicador, Integer> {
 
-    List<Indicador> findByEvaluacion_IdEvaluacion(int idEvaluacion);
+    List<Indicador> findByCriterio(String criterio);
+
+    List<Indicador> findByDescripcionContainingIgnoreCase(String descripcion);
+
+    List<Indicador> findByCalificacionGreaterThanEqual(double calificacion);
 }

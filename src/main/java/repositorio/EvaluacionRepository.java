@@ -1,6 +1,8 @@
 package repositorio;
 
+import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 import modelo.Evaluacion;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -8,11 +10,18 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface EvaluacionRepository extends JpaRepository<Evaluacion, Integer> {
 
-    List<Evaluacion> findByReceptor_IdUsuario(int idReceptor);
+    List<Evaluacion> findByEstado(String estado);
 
-    List<Evaluacion> findByEmisor_IdUsuario(int idEmisor);
+    List<Evaluacion> findByTipo(String tipo);
 
-    List<Evaluacion> findByPeriodo_IdPeriodo(int idPeriodo);
+    List<Evaluacion> findByEstadoAndTipo(String estado, String tipo);
 
-    List<Evaluacion> findByReceptor_IdUsuarioAndEstado(int idReceptor, String estado);
+    List<Evaluacion> findByFechaRealizacionBetween(Date desde, Date hasta);
+
+    /** Evaluaciones de un periodo (por sus fechas de inicio y fin). */
+    List<Evaluacion> findByPeriodoInicioAndPeriodoFin(Date periodoInicio, Date periodoFin);
+
+    /** Evaluación que contiene un indicador determinado. */
+    Optional<Evaluacion> findByIndicadores_IdIndicador(int idIndicador);
 }
+
