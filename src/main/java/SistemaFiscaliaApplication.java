@@ -1,8 +1,8 @@
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// Le indicamos a Spring que busque tus archivos en estas dos carpetas
-@SpringBootApplication(scanBasePackages = {"modelo", "controlador"})
+// Le indicamos a Spring que busque tus archivos en estas carpetas
+@SpringBootApplication(scanBasePackages = {"modelo", "controlador", "vista"})
 @org.springframework.boot.autoconfigure.domain.EntityScan(basePackages = {"modelo"})
 public class SistemaFiscaliaApplication {
     public static void main(String[] args) {
