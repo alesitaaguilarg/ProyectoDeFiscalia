@@ -69,7 +69,7 @@ En la tercera etapa el sistema evolucionó hacia una arquitectura multicapa comp
      * Se elaboró el `Plan de verificación RF-RNF.md` definiendo métodos formales (casos de prueba estructurados) e informales para validar `RE01–RE20` y `RNF01–RNF11`.
   5. **Mejora en la gestión Scrum:** Tras una retrospectiva el 3 de noviembre sobre la coordinación previa, se estructuraron 4 nuevos sprints (del 2 al 28 de noviembre) con 31 tareas puntuadas e indicadores vinculados directamente a la rúbrica de evaluación, gestionando cada avance en ramas de trabajo e integrándolos mediante Pull Requests.
 
-* ** Evidencias de la Tercera Entreg:**
+* ** Evidencias de la Tercera Entrega: **
   * **Evidencia 3.1 — Código de validaciones e interfaz en Java:** 
    ![Código de controlador y vista](./img/prueba6.png)
   * **Evidencia 3.2 — Diagrama de Clases v2 y Esquema de Base de Datos:** 
