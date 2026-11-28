@@ -70,13 +70,11 @@ En la tercera etapa el sistema evolucionó hacia una arquitectura multicapa comp
   5. **Mejora en la gestión Scrum:** Tras una retrospectiva el 3 de noviembre sobre la coordinación previa, se estructuraron 4 nuevos sprints (del 2 al 28 de noviembre) con 31 tareas puntuadas e indicadores vinculados directamente a la rúbrica de evaluación, gestionando cada avance en ramas de trabajo e integrándolos mediante Pull Requests.
 
 * ** Evidencias de la Tercera Entreg:**
-  * **Evidencia 3.1 — Nuevas capas `controlador` y `Vista` en `src/main`:** Toma una captura de pantalla de GitHub mostrando la carpeta `src/main/java/controlador` (con `EvaluacionControlador.java`, `PeriodoEvaluacionControlador.java`, `ReporteControlador.java` y `UsuarioControlador.java`) y otra de `src/main/Vista` (con `UsuarioVista.java`).
-    * *Instrucción:* Reemplaza esta línea con `![Capas Controlador y Vista en Tercera Entrega](./Img/e3-controlador-vista.png)`.
-  * **Evidencia 3.2 — Código de validaciones e interfaz en Java:** 
+  * **Evidencia 3.1 — Código de validaciones e interfaz en Java:** 
    ![Código de controlador y vista](./img/prueba6.png)
-  * **Evidencia 3.3 — Diagrama de Clases v2 y Esquema de Base de Datos:** 
+  * **Evidencia 3.2 — Diagrama de Clases v2 y Esquema de Base de Datos:** 
    ![Diagrama de clases v2 y modelo ER](./img/prueba7.png)
-  * **Evidencia 3.4 — Matriz de Trazabilidad y Plan de Verificación:**
+  * **Evidencia 3.3 — Matriz de Trazabilidad y Plan de Verificación:**
    ![Trazabilidad y verificación en Tercera Entrega](./img/prueba5.png)
 
 ---
