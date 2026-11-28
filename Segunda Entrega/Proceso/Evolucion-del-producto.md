@@ -25,7 +25,7 @@ En esta etapa inicial se estableció el marco teórico, normativo y funcional de
   2. **Especificación extensa de requisitos (`03-requisitos-especificos.md` y `05-requisitos-funcionales.md`):** Se redactaron 20 requisitos específicos (`RE 01` a `RE 20`) y 12 requisitos funcionales (`RF 01` a `RF 12`) detallando entradas, procesamiento y salidas de cada módulo, además de los requisitos de interfaces (`04-interfaces.md`) y atributos no funcionales (`06-requisitos-no-funcionales.md`).
   3. **Limitaciones detectadas al cierre:** No existía separación por capas de software, diagramas UML de comportamiento/estructura, modelo de base de datos ni código ejecutable; además, secciones como `07-otros-requisitos-y-apendices.md` quedaron como plantillas pendientes.
 
-* ** Evidencias de la Primera Entrega:**
+* **Evidencias de la Primera Entrega:**
   * **Evidencia 1.1 — Estructura documental inicial del SRS:**
   ![Estructura inicial Primera Entrega](./img/prueba1.png)
   * **Evidencia 1.2 — Especificación inicial de requisitos:** 
@@ -43,7 +43,7 @@ En la transición de la primera a la segunda entrega, el equipo transformó la e
   4. **Inicio de codificación en Java (`src/main/java/modelo`):** Se implementaron las 7 clases del paquete `modelo` con sus atributos privados, constructores y métodos base.
   5. **Gestión Scrum y métricas:** Se implementó el trabajo en 4 sprints semanales con tablero de Issues en GitHub, bitácoras (`Gestión-del-proceso.md`) y la `Métrica-contribución-ind.md` (42 puntos totales distribuidos equitativamente al 16.67% por integrante).
 
-* ** Evidencias de la Segunda Entrega:**
+* **Evidencias de la Segunda Entrega:**
   * **Evidencia 2.1 — Reorganización de carpetas y código `modelo` en Java:** 
   ![Estructura y paquete modelo en Segunda Entrega](./img/prueba3.png)
   * **Evidencia 2.2 — Diagrama de Casos de Uso y Diagrama de Clases v1:** 
@@ -69,7 +69,7 @@ En la tercera etapa el sistema evolucionó hacia una arquitectura multicapa comp
      * Se elaboró el `Plan de verificación RF-RNF.md` definiendo métodos formales (casos de prueba estructurados) e informales para validar `RE01–RE20` y `RNF01–RNF11`.
   5. **Mejora en la gestión Scrum:** Tras una retrospectiva el 3 de noviembre sobre la coordinación previa, se estructuraron 4 nuevos sprints (del 2 al 28 de noviembre) con 31 tareas puntuadas e indicadores vinculados directamente a la rúbrica de evaluación, gestionando cada avance en ramas de trabajo e integrándolos mediante Pull Requests.
 
-* ** Evidencias de la Tercera Entrega: **
+* **Evidencias de la Tercera Entrega:**
   * **Evidencia 3.1 — Código de validaciones e interfaz en Java:** 
    ![Código de controlador y vista](./img/prueba6.png)
   * **Evidencia 3.2 — Diagrama de Clases v2 y Esquema de Base de Datos:** 
